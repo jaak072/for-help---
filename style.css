@@ -1,0 +1,239 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-Jul-2020, 12:26:51 am
+    Author     : jawed
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 1200px;
+}
+.nav{
+    background-color: #bbc3e6;
+    padding: 20px;
+    border: 1px #4f98ab dotted;
+}
+.navbar{
+    background-color: #bbc3e6;
+    padding: 20px;
+    top: 0px;
+    position: sticky;
+}
+.navbar ul{
+    display: inline;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 18px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #070808;
+    padding: 20px;
+
+}
+.navbar a:hover{
+    background-color: #4f98ab;
+    color: #1fd871;
+}
+.subnavbar1{
+    display: none;
+    
+}
+.navbar li:hover .subnavbar1{
+    display: block;
+    position: absolute;
+    background-color:  #bbc3e6;
+    padding: 8px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -280px;
+    border: 1px #4f98ab dotted;
+    
+}
+.navbar li:hover .subnavbar1 ul{
+    line-height: 2.5em;
+    
+}
+.navbar li:hover .subnavbar1 ul li{
+    font-size: 17px;
+    margin: 0px;
+    padding-left: 100px;
+    
+}
+.navbar li:hover .subnavbar1 ul li a:hover{
+    background-color: #4f98ab;
+    color: #1fd871;
+}
+.timeline{
+    display: none;
+    background-color: #bbc3e6;
+    border: 1px black solid;
+    margin-top: 9px;
+    width: 100%;
+    left: 0;
+}
+.part2:hover .timeline{
+    display: block;
+    position: absolute;
+}
+.timeline-content{
+    width: 72%;
+    height: 590px;
+    float: left;
+   
+}
+.timeline-content table{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.timeline-content{
+    line-height: 3em;
+}
+.timeline-content table tr th{
+    padding-left: 15px;
+    font-size: 25px;
+}
+.timeline-content table tr td{
+    border-bottom: 1px #1fd871 dotted;
+}
+.timeline table a:hover{
+    padding: 10px 60px 10px 10px;
+    background-color: #4f98ab;
+    color: #1fd871;
+}
+.login-form{
+    width: 22%;
+    height: 450px;
+    margin-left: 0px;
+    float: left;
+    background-color: #5488a6;
+    padding: 10px;
+    border: 1px #4f98ab dotted;
+    margin-top: 25px;
+    font-family: 'Grenze Gotisch', cursive;
+    border-radius: 8px;
+}
+.login-form h1,p{
+    text-align: center;
+}
+.login-form h1{
+    font-size: 45px;
+}
+.login-form label{
+    margin-left: 30px;
+    font-size: 35px;
+    
+}
+.login-form input{
+    background-color: #e0e17e;
+    width: 80%;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#btn{
+    background-color: #1fd871;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 80%;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: #55d54b;
+}
+
+.subsubnav1{
+    display: none;
+    
+}
+#part1:hover .subsubnav1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: -145px;
+    background-color: #bbc3e6;
+}
+#part1:hover .subsubnav1 ul{
+    display: inline-block;
+    line-height: 2.5em;
+    padding: 0px;
+   
+}
+#part1:hover .subsubnav1 ul li{
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 1px white dotted;
+    
+}
+#part1:hover .subsubnav1 ul li a:hover{
+    padding: 20px;
+    background-color: #4f98ab;
+    color: #1fd871;
+    
+    
+}
+
+#Contant{
+    width: 60%;
+    height: 700px;
+    margin-top: 35px;
+    overflow-y: scroll;
+    margin-left: 60px;
+    display: inline-block;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+#Contant h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Grenze Gotisch', cursive;
+}
+#Contant p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+#box1{
+    width: 350px;
+    background-color: #f8efef;
+    display: inline-block;
+    margin-top: 90px;
+    position: fixed;
+    height: 400px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+#btn1{
+    border-style: none;
+    color: #fff8f8;
+    font-size: 17px;
+    background-color: #20c03e;
+    width: 350px;
+    height: 45px;
+    margin-top: 380px;
+}
